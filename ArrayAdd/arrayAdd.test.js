@@ -1,4 +1,3 @@
-/* global describe expect require it */
 const solution = require('./arrayAdd');
 
 describe('배열 더하기 테스트', () => {
