@@ -10,6 +10,7 @@
   "devDependencies": {
     "@babel/cli": "^7.5.5",
     "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.6.2",
     "@types/jest": "^24.0.18",
     "babel-plugin-import": "^1.12.1",
     "eslint": "^6.3.0",
