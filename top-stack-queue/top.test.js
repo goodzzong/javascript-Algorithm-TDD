@@ -11,8 +11,6 @@ const solution = (heights = undefined) => {
 				break;
 			}
 			if (j === 0) result.unshift(0);
-
-
 		}
 	}
 
