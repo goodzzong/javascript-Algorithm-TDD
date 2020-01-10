@@ -17,7 +17,6 @@ const isSkill = (skill, str) => {
 
 const solve = (skill, skill_trees) => {
 	const extractSkillTrees = skill_trees.map(v => includeCheck(skill, v));
-	let answer = 0;
 	return extractSkillTrees.reduce(
 		(acc, cur) => {
 			return skill.startsWith(cur) ? acc + 1 : acc
